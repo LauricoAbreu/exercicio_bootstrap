@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="lib/bootstrap.min.css">
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <h1>Carousel</h1>
+    <div class="container">
+        <div id="carousel-exemplo" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div data-bs-interval="2500" class="carousel-item active">
+                    <img src="https://cdn.pixabay.com/photo/2024/03/04/16/44/branches-8612695_1280.jpg" />
+                </div>
+                <div data-bs-interval="2500" class="carousel-item">
+                    <img src="https://cdn.pixabay.com/photo/2024/06/22/20/06/eiffel-tower-8846952_1280.png" />
+                </div>
+                <div data-bs-interval="2500" class="carousel-item">
+                    <img src="https://cdn.pixabay.com/photo/2024/06/21/08/21/hut-8843868_1280.jpg" />
+                </div>
+            </div>
+            <button data-bs-target="#carousel-exemplo" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button data-bs-target="#carousel-exemplo" data-bs-slide="next" class="carousel-control-next" type="button">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+    </div>
+    <script src="lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
